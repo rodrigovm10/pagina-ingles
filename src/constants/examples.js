@@ -4,20 +4,20 @@ export const EXAMPLES = [
   {
     id: 1,
     tense: 'Present simple',
-    activeVoice: 'She writes a letter.',
-    passiveVoice: 'A letter is written by her.'
+    activeVoice: 'Someone reads the book.',
+    passiveVoice: 'The book is read.'
   },
   {
     id: 2,
     tense: 'Past simple',
-    activeVoice: 'They bougth food at the supermarket.',
-    passiveVoice: 'Food was bougth at the supermarket by them.'
+    activeVoice: 'The team wrote the report.',
+    passiveVoice: 'The report was written by the team.'
   },
   {
     id: 3,
     tense: 'Future simple',
-    activeVoice: 'He will study programming.',
-    passiveVoice: 'Programming will be studied by him.'
+    activeVoice: 'Millions of people will watch the movie.',
+    passiveVoice: 'The movie will be watched by millions of people.'
   },
   {
     id: 4,
@@ -123,5 +123,38 @@ export const TENSES = [
     id: 12,
     tense: 'Modal Perfect (Could)',
     structure: 'Object + could have been + past participle + (OPTIONAL) preposition by + subject'
+  }
+]
+
+export const EXERCISES = [
+  {
+    id: 1,
+    text: 'The cake was baked by Mary.',
+    response: 'passive',
+    status: false
+  },
+  {
+    id: 2,
+    text: 'The students were taught by the professor.',
+    response: 'passive',
+    status: false
+  },
+  {
+    id: 3,
+    text: 'A new bridge is being built across the river.',
+    response: 'active',
+    status: false
+  },
+  {
+    id: 4,
+    text: 'The novel was written by the famous author.',
+    response: 'passive',
+    status: false
+  },
+  {
+    id: 5,
+    text: 'The team won the championship.',
+    response: 'active',
+    status: false
   }
 ]

@@ -1,14 +1,10 @@
 import { Box, Select, Text } from '@chakra-ui/react'
-import { useState } from 'react'
 import { TENSES } from '../constants/examples'
 import { CardGrammar } from './CardGrammar'
+import { useStructure } from '../hooks/useStructure'
 
 export function SelectStructure() {
-  const [structure, setStructure] = useState('Object + verb to be + past participle + (OPTIONAL) preposition by + subject')
-  const handleSelect = e => {
-    setStructure(e.target.value)
-  }
-
+  const { structure, handleSelect } = useStructure()
   return (
     <Box>
       <Text
@@ -17,7 +13,8 @@ export function SelectStructure() {
         Select the tense to examine its structure.
       </Text>
       <Select
-        variant='flushed'
+        // variant='flushed'
+        border
         m='1rem 0'
         onChange={handleSelect}
         value={structure}>
