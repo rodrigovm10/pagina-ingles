@@ -8,7 +8,10 @@ import { Examples } from './Examples'
 
 export function Principal() {
   return (
-    <Box m='2rem 20vw 0'>
+    <Box
+      m='0 auto'
+      maxW='90%'
+      w='50rem'>
       <Heading
         as='h1'
         m='2rem'

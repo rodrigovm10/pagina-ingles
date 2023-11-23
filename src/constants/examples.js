@@ -1,6 +1,7 @@
 export const TITLES = ['Grammatical tense', 'Active voice', 'Passive voice']
 
 export const EXAMPLES = [
+  // Simple Present
   {
     id: 1,
     tense: 'Simple present',
@@ -9,63 +10,149 @@ export const EXAMPLES = [
   },
   {
     id: 2,
+    tense: 'Simple present',
+    activeVoice: 'Dogs chase cats.',
+    passiveVoice: 'Cats are chased by dogs.'
+  },
+
+  // Simple Past
+  {
+    id: 3,
     tense: 'Simple past',
     activeVoice: 'The team wrote the report.',
     passiveVoice: 'The report was written by the team.'
   },
   {
-    id: 3,
+    id: 4,
+    tense: 'Simple past',
+    activeVoice: 'He painted the fence.',
+    passiveVoice: 'The fence was painted by him.'
+  },
+
+  // Simple Future
+  {
+    id: 5,
     tense: 'Simple future',
     activeVoice: 'Millions of people will watch the movie.',
     passiveVoice: 'The movie will be watched by millions of people.'
   },
   {
-    id: 4,
-    tense: 'Present continuos',
-    activeVoice: 'She is playing piano.',
+    id: 6,
+    tense: 'Simple future',
+    activeVoice: 'She will open the store.',
+    passiveVoice: 'The store will be opened by her.'
+  },
+
+  // Present Continuous
+  {
+    id: 7,
+    tense: 'Present continuous',
+    activeVoice: 'She is playing the piano.',
     passiveVoice: 'The piano is being played by her.'
   },
   {
-    id: 5,
-    tense: 'Past continuos',
-    activeVoice: 'I was watching a cook tutorial.',
-    passiveVoice: 'The cook tutorial was being watched by me.'
+    id: 8,
+    tense: 'Present continuous',
+    activeVoice: 'They are building a house.',
+    passiveVoice: 'A house is being built by them.'
+  },
+
+  // Past Continuous
+  {
+    id: 9,
+    tense: 'Past continuous',
+    activeVoice: 'I was watching a cooking tutorial.',
+    passiveVoice: 'The cooking tutorial was being watched by me.'
   },
   {
-    id: 6,
-    tense: 'Future continuos',
+    id: 10,
+    tense: 'Past continuous',
+    activeVoice: 'We were discussing the project.',
+    passiveVoice: 'The project was being discussed by us.'
+  },
+
+  // Future Continuous
+  {
+    id: 11,
+    tense: 'Future continuous',
     activeVoice: 'They will be traveling to Madrid next month.',
     passiveVoice: 'Madrid will be traveled to by them next month.'
   },
   {
-    id: 7,
+    id: 12,
+    tense: 'Future continuous',
+    activeVoice: 'He will be running a marathon.',
+    passiveVoice: 'A marathon will be run by him.'
+  },
+
+  // Present Perfect
+  {
+    id: 13,
     tense: 'Present perfect',
     activeVoice: 'I have visited that museum before.',
     passiveVoice: 'The museum has been visited by me.'
   },
   {
-    id: 8,
+    id: 14,
+    tense: 'Present perfect',
+    activeVoice: 'We have completed the assignment.',
+    passiveVoice: 'The assignment has been completed by us.'
+  },
+
+  // Past Perfect
+  {
+    id: 15,
     tense: 'Past perfect',
     activeVoice: 'They had lived in this city for five years.',
-    passiveVoice: 'This city had been lived by them for five years.'
+    passiveVoice: 'This city had been lived in by them for five years.'
   },
   {
-    id: 9,
+    id: 16,
+    tense: 'Past perfect',
+    activeVoice: 'She had prepared the meal.',
+    passiveVoice: 'The meal had been prepared by her.'
+  },
+
+  // Future Perfect
+  {
+    id: 17,
     tense: 'Future perfect',
     activeVoice: 'In a few hours, I will have finished reading the novel.',
     passiveVoice: 'In a few hours, the novel will have been finished by me.'
   },
   {
-    id: 10,
-    tense: 'Modal verb(could)',
+    id: 18,
+    tense: 'Future perfect',
+    activeVoice: 'They will have renovated the house.',
+    passiveVoice: 'The house will have been renovated by them.'
+  },
+
+  // Modal Verb (could)
+  {
+    id: 19,
+    tense: 'Modal verb (could)',
     activeVoice: 'You could do the task.',
-    passiveVoice: 'The task could be do by you.'
+    passiveVoice: 'The task could be done by you.'
   },
   {
-    id: 11,
-    tense: 'Modal perfect (can)',
-    activeVoice: 'When she finished her task, I can have start my task.',
-    passiveVoice: 'When her task is finished, my task can be started.'
+    id: 20,
+    tense: 'Modal verb (should)',
+    activeVoice: 'He should solve the puzzle.',
+    passiveVoice: 'The puzzle should be solved by him.'
+  },
+
+  // Modal Perfect (can)
+  {
+    id: 21,
+    tense: 'Modal perfect (should)',
+    activeVoice: 'You should have received the email by now',
+    passiveVoice: 'The email should have been received by you by now.'
+  },
+  {
+    id: 22,
+    tense: 'Modal perfect (might)',
+    activeVoice: 'We might have visited the museum last weekend',
+    passiveVoice: 'The museum might have been visited by us last weekend.'
   }
 ]
 

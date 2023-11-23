@@ -31,7 +31,7 @@ export function Footer() {
           </Text>
           <Text>
             <Link
-              href='https://www.ef.com/wwes/recursos-aprender-ingles/gramatica-inglesa/voz-pasiva/'
+              href='https://youtu.be/SRcE7UPIDLo?si=1r67-9VnylozyKLd'
               target='_blank'
               rel='noopener noreferrer'>
               Passive voice
@@ -93,18 +93,18 @@ export function Footer() {
           </Text>
           <Text>
             <Link
-              href='https://www.curso-ingles.com/recursos/vocabulario'
+              href='https://www.ef.com/wwes/recursos-aprender-ingles/gramatica-inglesa/voz-pasiva/'
               target='_blank'
               rel='noopener noreferrer'>
-              Vocabulario
+              Global site
             </Link>
           </Text>
           <Text>
             <Link
-              href='https://www.curso-ingles.com/aprender/curso-completo'
+              href='https://commongroundinternational.com/learning-english/perfect-modals-in-english/'
               target='_blank'
               rel='noopener noreferrer'>
-              Curso completo
+              Common Ground International Language Services
             </Link>
           </Text>
         </Box>
