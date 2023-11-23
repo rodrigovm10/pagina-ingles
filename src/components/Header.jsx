@@ -14,11 +14,13 @@ export function Header() {
         justify='space-between'
         align='center'>
         {isLargerThan768 ? (
-          <Text
-            fontSize='xl'
-            color='white'>
-            Voz pasiva
-          </Text>
+          <>
+            <Text
+              fontSize='2rem'
+              color='white'>
+              Passive voice
+            </Text>
+          </>
         ) : (
           <IconButton
             icon={<HamburgerIcon />}

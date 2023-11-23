@@ -3,19 +3,19 @@ export const TITLES = ['Grammatical tense', 'Active voice', 'Passive voice']
 export const EXAMPLES = [
   {
     id: 1,
-    tense: 'Present simple',
+    tense: 'Simple present',
     activeVoice: 'Someone reads the book.',
     passiveVoice: 'The book is read.'
   },
   {
     id: 2,
-    tense: 'Past simple',
+    tense: 'Simple past',
     activeVoice: 'The team wrote the report.',
     passiveVoice: 'The report was written by the team.'
   },
   {
     id: 3,
-    tense: 'Future simple',
+    tense: 'Simple future',
     activeVoice: 'Millions of people will watch the movie.',
     passiveVoice: 'The movie will be watched by millions of people.'
   },
@@ -56,7 +56,13 @@ export const EXAMPLES = [
     passiveVoice: 'In a few hours, the novel will have been finished by me.'
   },
   {
-    id: 9,
+    id: 10,
+    tense: 'Modal verb(could)',
+    activeVoice: 'You could do the task.',
+    passiveVoice: 'The task could be do by you.'
+  },
+  {
+    id: 11,
     tense: 'Modal perfect (can)',
     activeVoice: 'When she finished her task, I can have start my task.',
     passiveVoice: 'When her task is finished, my task can be started.'
@@ -116,13 +122,14 @@ export const TENSES = [
   },
   {
     id: 11,
-    tense: 'Modal Perfect (Can)',
-    structure: 'Object + can have been + past participle + (OPTIONAL) preposition by + subject'
+    tense: 'Modal verb',
+    structure:
+      'Object + modal verb to be + in the tense of the sentence + past participle + (OPTIONAL) preposition by + subject'
   },
   {
     id: 12,
-    tense: 'Modal Perfect (Could)',
-    structure: 'Object + could have been + past participle + (OPTIONAL) preposition by + subject'
+    tense: 'Modal verb perfect',
+    structure: 'Object + modal verb + have been + past participle + (OPTIONAL) preposition by + subject'
   }
 ]
 
