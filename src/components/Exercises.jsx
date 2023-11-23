@@ -40,7 +40,13 @@ export function Exercices() {
             </Box>
           </Flex>
         ))}
-        <Button onClick={handleSubmit}>Submit</Button>
+        <Button
+          onClick={handleSubmit}
+          bg='#1E392A'
+          _hover={{ bg: '#2C4E3F' }}
+          color='#fff'>
+          Submit
+        </Button>
       </Grid>
     </Box>
   )

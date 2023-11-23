@@ -59,7 +59,7 @@ export const EXAMPLES = [
     id: 9,
     tense: 'Modal perfect (can)',
     activeVoice: 'When she finished her task, I can have start my task.',
-    passiveVoice: 'In a few hours, the novel will have been finished by me.'
+    passiveVoice: 'When her task is finished, my task can be started.'
   }
 ]
 

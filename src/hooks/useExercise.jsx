@@ -6,13 +6,17 @@ export function useExercise() {
   const [responses, setResponses] = useState([
     { id: 1, response: 'passive' },
     { id: 2, response: 'passive' },
-    { id: 3, response: 'active' },
+    { id: 3, response: 'passive' },
     { id: 4, response: 'passive' },
-    { id: 5, response: 'active' }
+    { id: 5, response: 'passive' }
   ])
 
   const handleSelectResponses = (exerciseId, selectedResponse) => {
-    setResponses(prevResponses => prevResponses.map(response => (response.id === exerciseId ? { ...response, response: selectedResponse } : response)))
+    setResponses(prevResponses =>
+      prevResponses.map(response =>
+        response.id === exerciseId ? { ...response, response: selectedResponse } : response
+      )
+    )
   }
 
   const handleSubmit = () => {
